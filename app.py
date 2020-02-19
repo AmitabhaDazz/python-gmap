@@ -21,7 +21,7 @@ def getDistance():
         mode=request.args['mode']
         startLocation=request.args['startlocation']
         endLocation=request.args['endlocation']
-        paramList=["driving","walking","bicycling","transit"]
+        paramList=["swimming","walking","bicycling","transit"]
         data=None
         statusCode=None
         status=None
